@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Registration.css">
+        <style type='text/css'>
+        
+        
+        </style>
+
+    </head>
+
+    <body>
+        
+        <br />
+        <br />
+        <form method="POST" >
+            <div> 
+                First Name: <input style="margin-left: 30px" class="add" type="text" name="firstName" required /> 
+                <label style="margin-left: 20px">Last Name</label>: <input class="add" type="text" name="lastName" required /> 
+            </div>
+            <br />
+            <div>
+                Date Of Birth: <input style="margin-left: 16px" class="add" type="date" name="dob" />
+            </div>
+            <br />
+            <div>
+                Gender: 
+                <input style="margin-left: 60px" type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <br />
+            <div>
+                E-mail Address: <input class="add" style="margin-left: 6px" type="email" name="email" required/>
+            </div>
+            <br />
+            <div>
+                Phone No: <input style="margin-left: 42px" class="add" type="text" name="phoneNo" />
+            </div>
+            <br />
+            <div>
+                Address: <input style="margin-left: 55px" class="add" type="text" name="street1" placeholder="Street Name"> <br /> <br />
+                        <input style="margin-left: 115px" class="add" type="text" name="district" placeholder="District"> <br /> <br/>
+                        <input style="margin-left: 136px" class="add" type="text" name="province" placeholder="Province"> <br />
+            </div>
+            <br />
+            <div>
+                Password: <input style="margin-left: 67px" class="add" type="password" name="password"> <br /> <br/>
+                Confirm Password: <input style="margin-left: 10px" class="add" type="password" name="confirmPassword">
+            </div>
+            
+            <div>
+                <br />
+                <input type="checkbox" name="agreement">
+                I confirm these agreements
+            </div>
+
+            <button type="submit" class="submit">Create Account </button>
+        </form>
+    </body>
+</html>
